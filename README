@@ -1,0 +1,13 @@
+LaserCAM
+yergacheffe@atomsandelectrons.com
+
+This is a .Net Windows App that will read an SVG file containing both
+vector and bitmap shapes and convert it into GCode suitable for driving
+a laser cutter. This code was developed to drive an inexpensive Chinese
+laser from Mach3 and works quite well for vector shapes. The raster
+suffers from being too slow and doesn't control the laser on/off fast
+enough so there's uneven power applied.
+
+But compared to the horrific software that came with the machine, this
+produces smooth cuts that are an order of magnitude more precise.
+
