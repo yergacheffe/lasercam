@@ -1098,7 +1098,7 @@ M30 (End)";
                     contourFeed = (int)((1.0 - contour.Brightness) * 1000);
                     if (contour.Color.Name == "Blue")
                     {
-                        contourFeed = 50;
+                        contourFeed = 75;
                     }
                     else if (contour.Color.Name == "Aqua")
                     {
